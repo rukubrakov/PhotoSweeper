@@ -1,0 +1,37 @@
+# Xcode
+build/
+*.xcworkspace
+*.xcuserdata
+DerivedData/
+*.xcuserstate
+*.moved-aside
+
+# SwiftPM
+.swiftpm
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Misc
+.DS_Store
+.env
+*.log
+
+# Xcode Preview support files
+*.preview-thumbnails
+
+# Xcode Cloud
+xccloud/
+
+# Personal settings
+*.xcconfig
